@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="HelloWorld.aspx" />
+    <Content Include="SUM.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -79,6 +80,13 @@
       <DependentUpon>HelloWorld.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SUM.aspx.cs">
+      <DependentUpon>SUM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SUM.aspx.designer.cs">
+      <DependentUpon>SUM.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
